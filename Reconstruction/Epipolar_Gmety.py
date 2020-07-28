@@ -1,12 +1,6 @@
 import numpy as np
 import cv2 as cv
 from matplotlib import pyplot as plt
-plt.plot([1, 2, 3, 4])
-plt.ylabel('some numbers')
-plt.show()
-plt.plot([1, 2, 3, 4])
-plt.ylabel('some numbers')
-plt.show()
 
 
 img1 = cv.imread('img/left.JPG',0)  #queryimage # left image
@@ -66,3 +60,5 @@ img3,img4 = drawlines(img2,img1,lines2,pts2,pts1)
 plt.subplot(121),plt.imshow(img5)
 plt.subplot(122),plt.imshow(img3)
 plt.show()
+
+
